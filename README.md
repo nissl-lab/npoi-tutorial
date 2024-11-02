@@ -4,3 +4,4 @@
 ### [Sample 2 - Open an existing Excel tempate and setup formula in it](https://www.youtube.com/watch?v=kPNaeS_TVNg)
 ### [Sample 3 - applying data formats to Excel cells](https://www.youtube.com/watch?v=w2aEKIuns0E)
 ### [Sample 4 - insert pictures with NPOI](https://www.youtube.com/watch?v=KO3TuOi_Smc)
+### [Sample 5 - how to use WorkbookFactory](https://www.youtube.com/watch?v=H4FzMWkZNH8)
