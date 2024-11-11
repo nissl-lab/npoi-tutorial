@@ -5,3 +5,4 @@
 ### [Sample 3 - applying data formats to Excel cells](https://www.youtube.com/watch?v=w2aEKIuns0E)
 ### [Sample 4 - insert pictures with NPOI](https://www.youtube.com/watch?v=KO3TuOi_Smc)
 ### [Sample 5 - how to use WorkbookFactory](https://www.youtube.com/watch?v=H4FzMWkZNH8)
+### [Sample 6 - How to operate Sheet object in .NET](https://www.youtube.com/watch?v=Njurg1aEPTY)
