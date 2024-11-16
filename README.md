@@ -13,16 +13,22 @@
 ### [Sample 7 - How to set fill pattern color for a cell](https://www.youtube.com/watch?v=K5X-TkBLN_s)
 
 # Planning Tutorials
-- How to create a bar chart in Excel
-- How to create a Word document with Paragraph and Run
-- How to insert a table in Word document
+### Excel
+- How to set up border style for cells
+- How to change the column width and row height in Excel
 - How to use ExcelMapper to populate an Excel document
 - How to merge cells in Excel
 - How to set the print area in Excel
+- How to apply conditional formats in Excel
+- How to create a bar chart in Excel
 
-# Project Episodes
+### Word
+- How to create a Word document with Paragraph and Run
+- How to insert a table in a Word document
+
+### Complete Project 
 - Create a multiplication table in Excel 
 - Create a colorful matrix table in Excel
 - Create a loan calculator in Excel
 - Create a monthly salary report in Excel
-- 
+- Create an Excel file from a DataSet collection
