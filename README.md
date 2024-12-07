@@ -24,6 +24,7 @@
 
 ### Word
 - How to create a Word document with Paragraph and Run
+- How to insert a picture in a Word document
 - How to insert a table in a Word document
 
 ### Complete Project 
