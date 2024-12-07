@@ -12,6 +12,7 @@
 ### [Sample 6 - How to operate Sheet object](https://www.youtube.com/watch?v=Njurg1aEPTY)
 ### [Sample 7 - How to set fill pattern color for a cell](https://www.youtube.com/watch?v=K5X-TkBLN_s)
 ### [Sample 8 - How to create a word document with Paragraph and Run](https://www.youtube.com/watch?v=I_hoiZrsjMI)
+### [Sample 9 - create a hyperlink in a Word document with NPOI](https://www.youtube.com/watch?v=ah0n3jiFnlg)
 
 # Planning Tutorials
 ### Excel
