@@ -7,7 +7,7 @@
 ### [Sample 1 - Create a simple Excel file with NPOI](https://www.youtube.com/watch?v=z-h2hDz7RyM)
 ### [Sample 2 - Open an existing Excel tempate and setup formula in it](https://www.youtube.com/watch?v=kPNaeS_TVNg)
 ### [Sample 3 - Applying data formats to Excel cells](https://www.youtube.com/watch?v=w2aEKIuns0E)
-### [Sample 4 - Insert pictures with NPOI](https://www.youtube.com/watch?v=KO3TuOi_Smc)
+### [Sample 4 - Insert pictures in Excel with NPOI](https://www.youtube.com/watch?v=KO3TuOi_Smc)
 ### [Sample 5 - how to use WorkbookFactory](https://www.youtube.com/watch?v=H4FzMWkZNH8)
 ### [Sample 6 - How to operate Sheet object](https://www.youtube.com/watch?v=Njurg1aEPTY)
 ### [Sample 7 - How to set fill pattern color for a cell](https://www.youtube.com/watch?v=K5X-TkBLN_s)
@@ -15,9 +15,10 @@
 ### [Sample 9 - Create a hyperlink in a Word document with NPOI](https://www.youtube.com/watch?v=ah0n3jiFnlg)
 ### Sample 10 - Use custom color to fill background for one cell
 ### Sample 11 - Add a new Line in Word paragraph 
-### Sample 12 - Create bullets in Word
+### Sample 12 - Create bullets in Word document
 ### Sample 13 - Generate page number in Word header and footer
-### Sample 14 - Add a table with fixed width in Word
+### Sample 14 - Add a table with fixed width in Word document
+### Sample 15 - How to insert a picture in a Word document
 
 # Planning Tutorials
 ### Excel
@@ -28,10 +29,6 @@
 - How to set the print area in Excel
 - How to apply conditional formats in Excel
 - How to create a bar chart in Excel
-
-### Word
-- How to insert a picture in a Word document
-- How to insert a table in a Word document
 
 ### Complete Project 
 - Create a multiplication table in Excel 
