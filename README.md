@@ -18,7 +18,7 @@
 ### Sample 12 - Create bullets in Word document
 ### Sample 13 - Generate page number in Word header and footer
 ### Sample 14 - Add a table with fixed width in Word document
-### Sample 15 - How to insert a picture in a Word document
+### [Sample 15 - How to insert a picture in a Word document](https://www.youtube.com/watch?v=B0zh6H8W3EE&list=PL7J6yRMWV1ot32hsgCZJ5sI4Fp2QKovCM)
 
 # Planning Tutorials
 ### Excel
