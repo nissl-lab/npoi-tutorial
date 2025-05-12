@@ -16,6 +16,7 @@
 ### Sample 10 - Use custom color to fill background for one cell
 ### Sample 11 - Add a new Line in Word paragraph 
 ### Sample 12 - Create bullets in Word
+### Sample 13 - Generate page number in Word header and footer
 
 # Planning Tutorials
 ### Excel
