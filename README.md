@@ -15,6 +15,7 @@
 ### [Sample 9 - Create a hyperlink in a Word document with NPOI](https://www.youtube.com/watch?v=ah0n3jiFnlg)
 ### Sample 10 - Use custom color to fill background for one cell
 ### Sample 11 - Add a new Line in Word paragraph 
+### Sample 12 - Create bullets in Word
 
 # Planning Tutorials
 ### Excel
