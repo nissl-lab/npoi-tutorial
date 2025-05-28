@@ -1,5 +1,5 @@
 [![Discord](https://img.shields.io/badge/Chat-Discord-d82679.svg?logo=discord&logoColor=white)](https://discord.gg/rABUseUHme)
-[![Telegram](https://img.shields.io/badge/UserGroup-Telegram-2CA5E0.svg?logo=telegram&logoColor=white)](https://t.me/npoidevs)
+[![Telegram](https://img.shields.io/badge/Chat-Telegram-2CA5E0.svg?logo=telegram&logoColor=white)](https://t.me/npoidevs)
 
 
 # NPOI Tutorial
