@@ -26,7 +26,6 @@
 ### Excel
 - How to set up border style for cells
 - How to change the column width and row height in Excel
-- How to use ExcelMapper to populate an Excel document
 - How to merge cells in Excel
 - How to set the print area in Excel
 - How to apply conditional formats in Excel
