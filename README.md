@@ -15,12 +15,13 @@
 ### [Sample 9 - Create a hyperlink in a Word document with NPOI](https://www.youtube.com/watch?v=ah0n3jiFnlg&list=PL7J6yRMWV1ot32hsgCZJ5sI4Fp2QKovCM&index=2)
 ### Sample 10 - Use custom color to fill background for one cell
 ### [Sample 11 - Add a new Line in Word paragraph](https://www.youtube.com/watch?v=xFFcn_g5rmc&list=PL7J6yRMWV1ot32hsgCZJ5sI4Fp2QKovCM&index=1)
-### Sample 12 - Create bullets in Word document
+### Sample 12 - Create bullets in a Word document
 ### Sample 13 - Generate page number in Word header and footer
-### Sample 14 - Add a table with fixed width in Word document
+### Sample 14 - Add a table with fixed width in a Word document
 ### [Sample 15 - How to insert a picture in a Word document](https://www.youtube.com/watch?v=B0zh6H8W3EE&list=PL7J6yRMWV1ot32hsgCZJ5sI4Fp2QKovCM)
 ### [Sample 16 - Use ExcelMapper to generate a Excel file](https://www.youtube.com/watch?v=YdqDeoVqGlo&list=PL7J6yRMWV1ot32hsgCZJ5sI4Fp2QKovCM&index=1)
 ### Sample 17 - How to list core properties of a Word Document (XWPFDocument)
+### Sample 18 - Create watermark in a Word document 
 
 # Planning Tutorials
 ### Excel
