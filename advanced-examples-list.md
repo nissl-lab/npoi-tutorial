@@ -1,15 +1,11 @@
 # NPOI Examples (Advanced Example Subscription) 
 
----
-
 ## OOXML
 
 | Example | Description |
 |---|---|
 | `CreateBasicOOXMLFile` | Create a basic OOXML document/package from scratch (OOXML container basics). |
 | `ModifyExistingOOXMLFile` | Open an existing OOXML package and modify its contents/parts. |
-
----
 
 ## POIFS
 
@@ -20,15 +16,11 @@
 | `CreatePOIFSFileWithProperties` | Create a POIFS file and include document properties/metadata. |
 | `ReadThumbsDB` | Read/parse a `Thumbs.db` file (OLE2/POIFS-based) to extract information. |
 
----
-
 ## SXSSF
 
 | Example | Description |
 |---|---|
 | `CreateWorkbook` | Create a streaming XLSX workbook using SXSSF (suited for large data with low memory usage). |
-
----
 
 ## SS (common spreadsheet / SS usermodel examples)
 
@@ -49,8 +41,6 @@
 | `TimeSheetDemo` | Create a timesheet spreadsheet template/report. |
 | `UseBasicFormula` | Demonstrate creating and using basic Excel formulas. |
 | `WorkbookFactoryDemo` | Use `WorkbookFactory` to open workbooks without caring about XLS vs XLSX. |
-
----
 
 ## XWPF (Word .docx)
 
@@ -80,8 +70,6 @@
 | `SimpleDocument` | Create a simple DOCX with basic paragraphs/runs. |
 | `SimpleTable` | Create a simple table in DOCX. |
 | `UpdateEmbeddedDoc` | Update an embedded document/object inside a DOCX container. |
-
----
 
 ## HSSF (Excel .xls)
 
@@ -129,9 +117,7 @@
 | `UseNewlinesInCellsInXls` | Insert newlines within a cell and configure wrapping. |
 | `ZoomSheet` | Set sheet zoom level in `.xls`. |
 
----
-
-## xssf (Excel .xlsx) — partial listing (API truncated)
+## XSSF (Excel .xlsx)
 
 | Example | Description |
 |---|---|
