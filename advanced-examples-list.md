@@ -1,4 +1,4 @@
-## POIFS
+## POIFS Examples
 
 | Name | Description |
 |---|---|
@@ -7,7 +7,7 @@
 | CreatePOIFSFileWithProperties | create a POIFS file with properties |
 | ReadThumbsDB | read Thumbs.db (OLE2 container) |
 
-## HSSF (may be incomplete)
+## HSSF Examples
 
 | Name | Description |
 |---|---|
@@ -53,7 +53,7 @@
 | UseNewlinesInCellsInXls | newlines in cells |
 | ZoomSheet | zoom sheet |
 
-## SS
+## SS Examples
 
 | Name | Description |
 |---|---|
@@ -73,13 +73,13 @@
 | UseBasicFormula | basic formula creation/evaluation demo |
 | WorkbookFactoryDemo | open workbook via WorkbookFactory (format-agnostic) |
 
-## SXSSF
+## SXSSF Examples
 
 | Name | Description |
 |---|---|
 | CreateWorkbook | create a streaming workbook for large data |
 
-## XSSF (may be incomplete)
+## XSSF Examples
 
 | Name | Description |
 |---|---|
@@ -119,7 +119,7 @@
 | SplitAndFreezePanesInXlsx | split/freeze panes |
 | WritePerformanceTest | write performance test |
 
-## XWPF
+## XWPF Examples
 
 | Name | Description |
 |---|---|
@@ -148,15 +148,9 @@
 | SimpleTable | create a simple table |
 | UpdateEmbeddedDoc | update embedded document object |
 
-## OOXML
+## OOXML Examples
 
 | Name | Description |
 |---|---|
 | CreateBasicOOXMLFile | create a basic OOXML file |
 | ModifyExistingOOXMLFile | modify an existing OOXML file |
-
-## ScratchPad / HWPF
-
-| Name | Description |
-|---|---|
-| hwpf | Word 97-2003 (.doc) scratchpad examples |
