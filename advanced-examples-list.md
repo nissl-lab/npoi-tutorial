@@ -1,4 +1,4 @@
-# NPOI Examples — Summary Tables 
+# NPOI Examples (Advanced Example Subscription) 
 
 ---
 
