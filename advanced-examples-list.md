@@ -1,156 +1,172 @@
-## POIFS Examples
+# NPOI Examples — Summary Tables 
 
-| Name | Description |
+---
+
+## OOXML
+
+| Example | Description |
 |---|---|
-| CreateCustomProperties | create custom properties in an OLE2 document |
-| CreatePOIFSFile | create a POIFS (OLE2) file |
-| CreatePOIFSFileWithProperties | create a POIFS file with properties |
-| ReadThumbsDB | read Thumbs.db (OLE2 container) |
+| `CreateBasicOOXMLFile` | Create a basic OOXML document/package from scratch (OOXML container basics). |
+| `ModifyExistingOOXMLFile` | Open an existing OOXML package and modify its contents/parts. |
 
-## HSSF Examples
+---
 
-| Name | Description |
+## POIFS
+
+| Example | Description |
 |---|---|
-| AddHyperlinkInXls | add hyperlink in .xls |
-| ApplyFontInXls | apply font in .xls |
-| AutoSizeColumnInXls | autosize column in .xls |
-| ChangeSheetTabColorInXls | change sheet tab color |
-| ConditionalFormattingInXls | conditional formatting |
-| ConvertExcelToHtml | convert Excel to HTML |
-| CopyRowsAndCellsInXls | copy rows/cells |
-| CopySheet | copy sheet |
-| CreateDropDownListCellInXls | create dropdown list |
-| CreateEmptyExcelFile | create empty Excel file |
-| CreateHeaderFooterInXls | header/footer |
-| CustomColorInXls | custom colors |
-| DisplayGridlinesInXls | display gridlines |
-| DrawingInXls | drawing shapes/images |
-| EnableAutoFilterInXls | enable autofilter |
-| ExportXlsToDownload | export XLS for download |
-| ExtractPicturesFromXls | extract pictures |
-| ExtractStringsFromXls | extract strings |
-| FillBackgroundInXls | fill background |
-| GenerateXlsFromXlsTemplate | generate from template |
-| GroupRowAndColumnInXls | group rows/columns |
-| HideColumnAndRowInXls | hide column/row |
-| ImportXlsToDataTable | import to DataTable |
-| InsertPicturesInXls | insert pictures |
-| NumberFormatInXls | number formats |
-| ProtectSheetInXls | protect sheet |
-| RepeatingRowsAndColumns | repeating rows/columns for printing |
-| RotateTextInXls | rotate text |
-| SetActiveCellRangeInXls | set active cell range |
-| SetAlignmentInXls | alignment |
-| SetBorderStyleInXls | border styles |
-| SetBordersOfRegion | set borders of a region |
-| SetCellCommentInXls | cell comments |
-| SetDateCellInXls | date cell values |
-| SetPrintAreaInXls | print area |
-| SetPrintSettingsInXls | print settings |
-| SetWidthAndHeightInXls | set row/column sizes |
-| ShrinkToFitColumnInXls | shrink-to-fit column |
-| SplitAndFreezePanes | split/freeze panes |
-| UseNewlinesInCellsInXls | newlines in cells |
-| ZoomSheet | zoom sheet |
+| `CreateCustomProperties` | Write custom document properties into an OLE2/POIFS container. |
+| `CreatePOIFSFile` | Create a basic POIFS (OLE2) file/compound document. |
+| `CreatePOIFSFileWithProperties` | Create a POIFS file and include document properties/metadata. |
+| `ReadThumbsDB` | Read/parse a `Thumbs.db` file (OLE2/POIFS-based) to extract information. |
 
-## SS Examples
+---
 
-| Name | Description |
+## SXSSF
+
+| Example | Description |
 |---|---|
-| BusinessPlan | business plan spreadsheet generation/demo |
-| CalendarDemo | calendar spreadsheet generation/demo |
-| ColorfulMatrixTable | generate a colorful matrix table sheet |
-| CopyRowAndEvaluate | Copy sample row and recalculate workbook |
-| LinkedDropDownLists | linked drop-down list data validation |
-| LoanCalculator | loan calculator spreadsheet demo |
-| MeringCells | merge cells demo |
-| MonthlySalaryReport | monthly salary report spreadsheet demo |
-| MultplicationTable | multiplication table spreadsheet demo |
-| ReadAndPrintData | read spreadsheet and print cell data |
-| SetCellValues | set/write cell values demo |
-| SetPrintArea | set print area in a sheet |
-| TimeSheetDemo | timesheet spreadsheet demo |
-| UseBasicFormula | basic formula creation/evaluation demo |
-| WorkbookFactoryDemo | open workbook via WorkbookFactory (format-agnostic) |
+| `CreateWorkbook` | Create a streaming XLSX workbook using SXSSF (suited for large data with low memory usage). |
 
-## SXSSF Examples
+---
 
-| Name | Description |
+## SS (common spreadsheet / SS usermodel examples)
+
+| Example | Description |
 |---|---|
-| CreateWorkbook | create a streaming workbook for large data |
+| `BusinessPlan` | Generate a “business plan” style spreadsheet report with formatting. |
+| `CalendarDemo` | Generate a calendar-like spreadsheet layout (dates, cells, formatting). |
+| `ColorfulMatrixTable` | Create a matrix/table with color styling to visualize structure/values. |
+| `CopyRowAndEvaluate` | Copy rows and re-evaluate formulas/values after copying. |
+| `LinkedDropDownLists` | Create dependent/linked data validation drop-down lists. |
+| `LoanCalculator` | Build a loan calculator spreadsheet (formulas + layout). |
+| `MeringCells` | Demonstrate merging cells/regions in a sheet. |
+| `MonthlySalaryReport` | Generate a monthly salary report spreadsheet with formatting/formulas. |
+| `MultplicationTable` | Generate a multiplication table in a sheet. |
+| `ReadAndPrintData` | Read an existing spreadsheet and print/output cell data. |
+| `SetCellValues` | Basic demo of writing values to cells (strings/numbers/dates). |
+| `SetPrintArea` | Set workbook/sheet print area settings. |
+| `TimeSheetDemo` | Create a timesheet spreadsheet template/report. |
+| `UseBasicFormula` | Demonstrate creating and using basic Excel formulas. |
+| `WorkbookFactoryDemo` | Use `WorkbookFactory` to open workbooks without caring about XLS vs XLSX. |
 
-## XSSF Examples
+---
 
-| Name | Description |
+## XWPF (Word .docx)
+
+| Example | Description |
 |---|---|
-| AddHyperlinkInXlsx | add hyperlink |
-| ApplyFontInXlsx | apply font |
-| AreaChart | area chart |
-| BarChart | bar chart |
-| BigGridTest | big grid test |
-| BorderStylesInXlsx | border styles |
-| ConditionalFormats | conditional formats |
-| CopySheet | copy sheet |
-| CreateCommentInXlsx | cell comments |
-| CreateCustomProperties | custom properties |
-| CreateEmptyWorkbook | create empty workbook |
-| CreateHeaderFooterInXlsx | header/footer |
-| CreateTableInXlsx | create table |
-| CreateWorkbookFromDataSet | workbook from DataSet |
-| DataFormatsInXlsx | data formats |
-| DownloadXlsx | download xlsx |
-| ExtractPicturesFromXlsx | extract pictures |
-| ExtractTextFromXlsx | extract text |
-| FillBackgroundInXlsx | fill background |
-| FillDateOnlyValue | date-only value |
-| HideColumnAndRowInXlsx | hide column/row |
-| InsertPicturesInXlsx | insert pictures |
-| InsertRowInExistingSheet | insert row into existing sheet |
-| LineChart | line chart |
-| PageSetupInXlsx | page setup |
-| PieChart | pie chart |
-| PrintSetupInXlsx | print setup |
-| ProtectSheetInXlsx | protect sheet |
-| ReadSheetsByXSSFReader | read sheets via XSSFReader |
-| ScatterChart | scatter chart |
-| SetIsRightToLeftInXlsx | right-to-left sheet |
-| SetRowStyle | set row style |
-| SetWidthAndHeightInXlsx | set width/height |
-| SplitAndFreezePanesInXlsx | split/freeze panes |
-| WritePerformanceTest | write performance test |
+| `ChangeOrientation` | Change page orientation (portrait/landscape) in a DOCX document. |
+| `ComplexTableLayout` | Build a more complex DOCX table layout (merged cells, styling, etc.). |
+| `CreateBulletList` | Create bullet lists in a DOCX document. |
+| `CreateComments` | Add comments/annotations to a DOCX document. |
+| `CreateEmptyDocument` | Create a minimal empty DOCX document. |
+| `CreateFieldRun` | Insert field runs (e.g., dynamic fields) into a DOCX paragraph. |
+| `CreateHeaderAndFooter` | Create headers and footers in a DOCX document. |
+| `CreateHighlightRun` | Apply text highlighting to a run in a DOCX document. |
+| `CreateHyperlink` | Insert hyperlinks into a DOCX document. |
+| `CreateNestedTable` | Create nested tables (a table inside another table) in DOCX. |
+| `CreateOMathFormula` | Create OMML (Office Math) formulas in DOCX. |
+| `CreateSingleLineWithAlignments` | Create a paragraph/single line with different alignments/styling. |
+| `CreateWatermark` | Add a watermark to a DOCX document. |
+| `CreateWordTableMerge` | Merge cells in a Word table. |
+| `CreateWordTableWithBulletList` | Combine tables and bullet lists in a DOCX document. |
+| `GeneragePageNumber` | Insert/generate page numbers in header/footer. |
+| `InsertPicturesInWord` | Insert images into a DOCX document. |
+| `IterateTables` | Iterate through tables in a DOCX document and inspect contents. |
+| `MapObjectToTable` | Map object/data structures into a DOCX table (templated table population). |
+| `ReplaceTexts` | Find/replace text in a DOCX document. |
+| `ResizeEmbededPicture` | Resize an embedded picture in DOCX. |
+| `SimpleDocument` | Create a simple DOCX with basic paragraphs/runs. |
+| `SimpleTable` | Create a simple table in DOCX. |
+| `UpdateEmbeddedDoc` | Update an embedded document/object inside a DOCX container. |
 
-## XWPF Examples
+---
 
-| Name | Description |
+## HSSF (Excel .xls)
+
+| Example | Description |
 |---|---|
-| ChangeOrientation | change page orientation in a .docx |
-| ComplexTableLayout | create complex table layout |
-| CreateBulletList | create bullet list |
-| CreateComments | add comments to a Word document |
-| CreateEmptyDocument | create empty .docx |
-| CreateFieldRun | create field run in a paragraph |
-| CreateHeaderAndFooter | create header and footer |
-| CreateHighlightRun | highlight text run |
-| CreateHyperlink | create hyperlink |
-| CreateNestedTable | nested tables |
-| CreateOMathFormula | create Office Math (OMath) formula |
-| CreateSingleLineWithAlignments | line with different alignments |
-| CreateWatermark | add watermark |
-| CreateWordTableMerge | merge Word table cells |
-| CreateWordTableWithBulletList | table with bullet list |
-| GeneragePageNumber | generate page numbers |
-| InsertPicturesInWord | insert pictures |
-| IterateTables | iterate tables |
-| MapObjectToTable | map objects to a table |
-| ReplaceTexts | replace text in a document |
-| ResizeEmbededPicture | resize embedded picture |
-| SimpleDocument | create a simple document |
-| SimpleTable | create a simple table |
-| UpdateEmbeddedDoc | update embedded document object |
+| `AddHyperlinkInXls` | Add hyperlinks to cells in an `.xls` workbook. |
+| `ApplyFontInXls` | Create/apply font styles in `.xls`. |
+| `AutoSizeColumnInXls` | Auto-size columns based on content in `.xls`. |
+| `ChangeSheetTabColorInXls` | Change worksheet tab color in `.xls`. |
+| `ConditionalFormattingInXls` | Apply conditional formatting rules in `.xls`. |
+| `ConvertExcelToHtml` | Convert an `.xls` sheet/workbook to HTML. |
+| `CopyRowsAndCellsInXls` | Copy rows/cells (values + styles) within `.xls`. |
+| `CopySheet` | Copy/clone a sheet in an `.xls` workbook. |
+| `CreateDropDownListCellInXls` | Create data validation drop-down lists in `.xls`. |
+| `CreateEmptyExcelFile` | Create an empty `.xls` workbook. |
+| `CreateHeaderFooterInXls` | Create headers/footers in `.xls`. |
+| `CustomColorInXls` | Define/use custom palette colors in `.xls`. |
+| `DisplayGridlinesInXls` | Control gridline display settings in `.xls`. |
+| `DrawingInXls` | Draw shapes/graphics in `.xls`. |
+| `EnableAutoFilterInXls` | Enable auto-filter on a cell range in `.xls`. |
+| `ExportXlsToDownload` | Write an `.xls` to a stream/response for download (web scenario). |
+| `ExtractPicturesFromXls` | Extract embedded images from `.xls`. |
+| `ExtractStringsFromXls` | Extract shared strings/text content from `.xls`. |
+| `FillBackgroundInXls` | Set background fill color/pattern in `.xls`. |
+| `GenerateXlsFromXlsTemplate` | Fill an `.xls` template to generate output. |
+| `GroupRowAndColumnInXls` | Group/outline rows and columns in `.xls`. |
+| `HideColumnAndRowInXls` | Hide rows/columns in `.xls`. |
+| `ImportXlsToDataTable` | Import `.xls` data into a `DataTable`. |
+| `InsertPicturesInXls` | Insert images into an `.xls` sheet. |
+| `NumberFormatInXls` | Apply numeric/date formats in `.xls`. |
+| `ProtectSheetInXls` | Protect a sheet with a password/permissions in `.xls`. |
+| `RepeatingRowsAndColumns` | Configure repeating title rows/columns for printing. |
+| `RotateTextInXls` | Rotate cell text in `.xls`. |
+| `SetActiveCellRangeInXls` | Set active cell and selection range in `.xls`. |
+| `SetAlignmentInXls` | Set horizontal/vertical alignment in `.xls`. |
+| `SetBorderStyleInXls` | Apply border styles to cells in `.xls`. |
+| `SetBordersOfRegion` | Apply borders around a region (cell range). |
+| `SetCellCommentInXls` | Add cell comments/notes in `.xls`. |
+| `SetDateCellInXls` | Write dates to cells with date formatting in `.xls`. |
+| `SetPrintAreaInXls` | Set print area for `.xls` worksheets. |
+| `SetPrintSettingsInXls` | Configure print settings (paper size, orientation, etc.) in `.xls`. |
+| `SetWidthAndHeightInXls` | Set row heights and column widths in `.xls`. |
+| `ShrinkToFitColumnInXls` | Shrink-to-fit text in a column/cell. |
+| `SplitAndFreezePanes` | Split and/or freeze panes in `.xls`. |
+| `UseNewlinesInCellsInXls` | Insert newlines within a cell and configure wrapping. |
+| `ZoomSheet` | Set sheet zoom level in `.xls`. |
 
-## OOXML Examples
+---
 
-| Name | Description |
+## xssf (Excel .xlsx) — partial listing (API truncated)
+
+| Example | Description |
 |---|---|
-| CreateBasicOOXMLFile | create a basic OOXML file |
-| ModifyExistingOOXMLFile | modify an existing OOXML file |
+| `AddHyperlinkInXlsx` | Add hyperlinks to cells in an `.xlsx` workbook. |
+| `ApplyFontInXlsx` | Create/apply font styles in `.xlsx`. |
+| `AreaChart` | Create an area chart in `.xlsx`. |
+| `BarChart` | Create a bar chart in `.xlsx`. |
+| `BigGridTest` | Stress/large-grid test for `.xlsx` creation/handling. |
+| `BorderStylesInXlsx` | Demonstrate border styles in `.xlsx`. |
+| `ConditionalFormats` | Apply conditional formatting in `.xlsx`. |
+| `CopySheet` | Copy/clone a sheet in `.xlsx`. |
+| `CreateCommentInXlsx` | Add cell comments in `.xlsx`. |
+| `CreateCustomProperties` | Write custom document properties into an OOXML `.xlsx` package. |
+| `CreateEmptyWorkbook` | Create an empty `.xlsx` workbook. |
+| `CreateHeaderFooterInXlsx` | Create headers/footers in `.xlsx`. |
+| `CreateTableInXlsx` | Create an Excel “Table” (structured table) in `.xlsx`. |
+| `CreateWorkbookFromDataSet` | Generate a workbook from a .NET `DataSet`. |
+| `DataFormatsInXlsx` | Apply number/date data formats in `.xlsx`. |
+| `DownloadXlsx` | Write an `.xlsx` to stream/response for download (web scenario). |
+| `ExtractPicturesFromXlsx` | Extract embedded images from `.xlsx`. |
+| `ExtractTextFromXlsx` | Extract text content from `.xlsx`. |
+| `FillBackgroundInXlsx` | Set background fill color/pattern in `.xlsx`. |
+| `FillDateOnlyValue` | Write date-only values with appropriate cell type/format. |
+| `HideColumnAndRowInXlsx` | Hide rows/columns in `.xlsx`. |
+| `InsertPicturesInXlsx` | Insert images into `.xlsx`. |
+| `InsertRowInExistingSheet` | Insert a row into an existing `.xlsx` sheet (shift rows). |
+| `LineChart` | Create a line chart in `.xlsx`. |
+| `PageSetupInXlsx` | Configure page setup settings (margins, orientation, etc.) in `.xlsx`. |
+| `PieChart` | Create a pie chart in `.xlsx`. |
+| `PrintSetupInXlsx` | Configure print setup options in `.xlsx`. |
+| `ProtectSheetInXlsx` | Protect a sheet with password/permissions in `.xlsx`. |
+| `ReadSheetsByXSSFReader` | Read sheets using `XSSFReader` (streaming/event-style reading). |
+| `ScatterChart` | Create a scatter chart in `.xlsx`. |
+| `SetIsRightToLeftInXlsx` | Set worksheet layout to right-to-left in `.xlsx`. |
+| `SetRowStyle` | Apply styling at the row level in `.xlsx`. |
+| `SetWidthAndHeightInXlsx` | Set row heights and column widths in `.xlsx`. |
+| `SplitAndFreezePanesInXlsx` | Split and/or freeze panes in `.xlsx`. |
+| `WritePerformanceTest` | Performance benchmark for writing `.xlsx`. |
