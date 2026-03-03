@@ -2,7 +2,10 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-2CA5E0.svg?logo=telegram&logoColor=white)](https://t.me/npoidevs)
 
 
-# NPOI Tutorial
+## Advanced Example Subscription
+You can [sponsor me via github sponsor](https://github.com/sponsors/tonyqus) to get full access to [120+ advanced examples](advanced-examples-list.md)
+
+## NPOI Tutorial
 
 ### [Sample 1 - Create a simple Excel file with NPOI](https://www.youtube.com/watch?v=PUCdied11dM&list=PL7J6yRMWV1ot32hsgCZJ5sI4Fp2QKovCM&index=1)
 ### [Sample 2 - Open an existing Excel tempate and setup formula in it](https://www.youtube.com/watch?v=kPNaeS_TVNg&list=PL7J6yRMWV1ot32hsgCZJ5sI4Fp2QKovCM&index=9)
@@ -23,20 +26,5 @@
 ### Sample 17 - How to list core properties of a Word Document (XWPFDocument)
 ### Sample 18 - Create watermark in a Word document 
 
-# Planning Tutorials
-### Excel
-- How to set up border style for cells
-- How to change the column width and row height in Excel
-- How to merge cells in Excel
-- How to set the print area in Excel
-- How to apply conditional formats in Excel
-- How to create a bar chart in Excel
-
-### Complete Project 
-- Create a multiplication table in Excel 
-- Create a colorful matrix table in Excel
-- Create a loan calculator in Excel
-- Create a monthly salary report in Excel
-- Create an Excel file from a DataSet collection
 
 <a href="https://info.flagcounter.com/wPIv"><img src="https://s11.flagcounter.com/count2/wPIv/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_12/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
